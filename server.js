@@ -6,6 +6,10 @@ const app = express();
 // Middleware to parse JSON
 app.use(bodyParser.json());
 
+// Serve static files from the public folder
+app.use(express.static('public'));
+
+
 // Connect to MySQL
 const db = mysql.createConnection({
   host: 'localhost',
