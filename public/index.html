@@ -17,15 +17,20 @@
             <button onclick="addTask()">Add Task</button>
         </div>
 
+        <!-- Task List Container -->
+        <div class="task-container">
+            <!-- List of incomplete tasks -->
+            <div class="task-column">
+                <h2>Incomplete Tasks</h2>
+                <ul id="task-list"></ul>
+            </div>
 
-        
-        <!-- List of incomplete tasks -->
-        <h2>Incomplete Tasks</h2>
-        <ul id="task-list"></ul>
-
-        <!-- List of completed tasks -->
-        <h2>Completed Tasks</h2>
-        <ul id="completed-task-list"></ul>
+            <!-- List of completed tasks -->
+            <div class="task-column">
+                <h2>Completed Tasks</h2>
+                <ul id="completed-task-list"></ul>
+            </div>
+        </div>
 
         <!-- Clear Completed Tasks Button -->
         <button onclick="clearCompletedTasks()">Clear Completed Tasks</button>
@@ -38,8 +43,6 @@
             <button onclick="closeUpdateModal()">Cancel</button>
         </div>
     </div>
-
-    
 
     <script src="script.js"></script>
 </body>

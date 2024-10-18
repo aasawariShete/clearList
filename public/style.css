@@ -16,7 +16,7 @@ body {
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow for a modern look */
     width: 100%;
-    max-width: 600px; /* Limits width for larger screens */
+    max-width: 800px; /* Increased width for larger columns */
     text-align: center; /* Center-aligns all the content inside the container */
 }
 
@@ -53,6 +53,17 @@ button {
 
 button:hover {
     background-color: #44d4a1; /* Hover effect color change */
+}
+
+.task-container {
+    display: flex; /* Enables flexbox for columns */
+    justify-content: space-between; /* Space between columns */
+    margin-bottom: 20px; /* Space below the task lists */
+}
+
+.task-column {
+    width: 45%; /* Width for each column */
+    text-align: left; /* Align text to the left for better readability */
 }
 
 ul {
