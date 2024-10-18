@@ -11,6 +11,7 @@
 <body>
     <!-- Add a container to center the content -->
     <div class="container">
+        <div id="content">
         <h1>To-Do List</h1>
 
         <!-- Section to add new tasks -->
@@ -37,14 +38,29 @@
         <!-- Clear Completed Tasks Button -->
         <button onclick="clearCompletedTasks()">Clear Completed Tasks</button>
 
-        <!-- Update Task Modal -->
-        <div id="updateModal" style="display:none;">
+    </div>
+
+       
+
+        <div id="updatePopup" class="popup"> <!-- Popup will be excluded from blur -->
+            <!-- Popup content -->
+             <!-- Update Task Popup (previously modal) -->
             <h3>Update Task</h3>
             <input type="text" id="updateTaskInput">
             <button onclick="saveUpdatedTask()">Save</button>
-            <button onclick="closeUpdateModal()">Cancel</button>
+            <button onclick="closeUpdatePopup()">Cancel</button>
         </div>
+
+
+
+        </div>
+
+
+
+
     </div>
+
+
 
     <script src="script.js"></script>
 </body>
