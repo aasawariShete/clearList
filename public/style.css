@@ -11,7 +11,7 @@ body {
 
 /* Center the content within a container */
 .container {
-    background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent white background */
+    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background */
     padding: 20px;
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow for a modern look */
@@ -41,15 +41,44 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+li {
+    display: flex; /* Make the list item a flex container */
+    justify-content: space-between; /* Align content: task on left, buttons on right */
+    align-items: center; /* Align items vertically in the center */
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Adds a subtle divider between tasks */
+    position: relative; /* Make it possible to align elements inside */
+}
+
+li span {
+    flex-grow: 1; /* Task description takes up the remaining space */
+    margin-right: 10px; /* Adds space between the task and buttons */
+    overflow-wrap: break-word; /* Wrap long text to avoid overflow */
+}
+
+li button {
+    margin-left: 5px; /* Adds space between buttons */
+    flex-shrink: 0; /* Prevent the button from shrinking */
+}
+
+li button:last-child {
+    margin-right: 0;
+}
 
 button {
-    padding: 10px 15px;
+    padding: 10px; /* Adjust padding for better alignment */
     background-color: #4e91f9; /* Matches gradient color */
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
+
+button i {
+    margin-right: 5px; /* Adds some space between the icon and the text */
+}
+
 
 button:hover {
     background-color: #44d4a1; /* Hover effect color change */
