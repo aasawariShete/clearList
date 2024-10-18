@@ -1,20 +1,67 @@
+/* Style for the body to add gradient background */
 body {
     font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4e91f9, #44d4a1); /* Gradient from blue to green */
+    min-height: 100vh; /* Ensures the background covers full height */
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
 }
 
-#new-task {
+/* Center the content within a container */
+.container {
+    background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow for a modern look */
+    width: 100%;
+    max-width: 600px; /* Limits width for larger screens */
+    text-align: center; /* Center-aligns all the content inside the container */
+}
+
+/* Center the main heading */
+h1 {
+    text-align: center;
+    font-size: 2em;
     margin-bottom: 20px;
 }
 
-button {
-    margin-left: 10px;
+/* Center the task input and button */
+#new-task {
+    display: flex;
+    justify-content: center; /* Centers the input and button horizontally */
+    gap: 10px; /* Adds space between the input and the button */
+    margin-bottom: 20px;
+}
+
+#task-input {
     padding: 10px;
+    width: 60%; /* Adjusts width of input */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4e91f9; /* Matches gradient color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #44d4a1; /* Hover effect color change */
 }
 
 ul {
     list-style-type: none;
+    padding: 0;
 }
 
 li {
     margin: 10px 0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Adds a subtle divider between tasks */
 }
