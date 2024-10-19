@@ -6,6 +6,8 @@ This project is a **To-Do List Web Application** built using HTML, CSS, and Java
 
 ## UI Design
 
+[Watch the video](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME/raw/main/images/Untitled%20video%20-%20Made%20with%20Clipchamp.mp4)
+
 - **Front Page of the To-do-list**
 
 ![To-Do List App Screenshot](./images/to%20do%20list%201.png "To-Do List UI")
