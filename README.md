@@ -21,3 +21,9 @@ This project is a **To-Do List Web Application** built using HTML, CSS, and Java
 - **Font Awesome**: Integrated icons for task management buttons, offering a visually appealing alternative to text-based buttons.
 - **RESTful API Integration**: Simulated interaction with backend services through API calls for fetching, updating, and deleting tasks, allowing easy expansion for future backend integration.
 
+## UI Design
+
+- **Front Page of the To-do-list**
+
+![To-Do List App Screenshot](./images/to%20do%20list%201.png "To-Do List UI")
+
