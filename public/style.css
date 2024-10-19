@@ -179,3 +179,7 @@ body.popup-open .popup {
 .popup button:hover {
     background-color: #44d4a1;
 }
+
+.popup button.cancel-btn:hover {
+    background-color: red; /* Change to red on hover */
+}
