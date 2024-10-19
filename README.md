@@ -23,8 +23,8 @@ This project is a **To-Do List Web Application** built using HTML, CSS, and Java
 - **Modal Dialog for Updates**: Users can modify their tasks in a user-friendly modal popup, ensuring a streamlined task editing process.
 - **Task Completion Toggle**: Users can mark tasks as complete or incomplete with a single click, providing clear task management.
 - **Clear Completed Tasks**: A dedicated button allows users to clear all completed tasks at once, ensuring a clutter-free interface.
+- Check out my YouTube video [here](https://youtu.be/PEh1S10K9mE)!
 
-## Tech Stack
 
 ## Tech Stack
 
