@@ -4,6 +4,17 @@
 
 This project is a **To-Do List Web Application** built using HTML, CSS, and JavaScript. It provides an intuitive interface for users to manage their daily tasks efficiently. The application reflects modern UI/UX design practices and demonstrates the implementation of **state-of-the-art frontend technologies**. The interface is designed to ensure ease of use, allowing users to add, update, complete, and delete tasks with seamless interactivity.
 
+## UI Design
+
+- **Front Page of the To-do-list**
+
+![To-Do List App Screenshot](./images/to%20do%20list%201.png "To-Do List UI")
+
+- **Update Pop-up of the To-do-list**
+
+  ![Update Task Modal Screenshot](./images/updatetask.png "Update Task Modal UI")
+
+
 ## Features
 
 - **Responsive UI Design**: The application is fully responsive, providing an optimal viewing experience across various devices, from desktops to mobile screens.
@@ -21,10 +32,3 @@ This project is a **To-Do List Web Application** built using HTML, CSS, and Java
 - **Font Awesome**: Integrated icons for task management buttons, offering a visually appealing alternative to text-based buttons.
 - **RESTful API Integration**: Simulated interaction with backend services through API calls for fetching, updating, and deleting tasks, allowing easy expansion for future backend integration.
 
-## UI Design
-
-- **Front Page of the To-do-list**
-
-![To-Do List App Screenshot](./images/to%20do%20list%201.png "To-Do List UI")
-
-- **Update Pop-up of the To-do-list**
