@@ -57,6 +57,13 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+ul {
+    max-height: 300px; /* Set a fixed height for the task lists */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 0; /* Remove default padding */
+    list-style-type: none; /* Remove default bullet points */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
 li {
     display: flex; /* Make the list item a flex container */
     background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background */
@@ -67,6 +74,7 @@ li {
     padding: 2px;
     border-bottom: 1px solid #cccccc2c; /* Adds a subtle divider between tasks */
     position: relative; /* Make it possible to align elements inside */
+    overflow-y: auto; /* Enable vertical scrolling */
 }
 
 li span {
