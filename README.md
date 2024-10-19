@@ -6,8 +6,6 @@ This project is a **To-Do List Web Application** built using HTML, CSS, and Java
 
 ## UI Design
 
-[![Watch the video](https://img.youtube.com/vi/PEh1S10K9mE/0.jpg)](https://youtu.be/PEh1S10K9mE)
-
 - **Front Page of the To-do-list**
 
 ![To-Do List App Screenshot](./images/to%20do%20list%201.png "To-Do List UI")
