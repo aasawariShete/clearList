@@ -1,6 +1,8 @@
 /* Style for the body to add gradient background */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     background: linear-gradient(135deg, #4e91f9, #44d4a1); /* Gradient from blue to green */
     min-height: 100vh; /* Ensures the background covers full height */
     margin: 0;
@@ -12,7 +14,7 @@ body {
 /* Center the content within a container */
 .container {
     background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background */
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow for a modern look */
     width: 100%;
@@ -23,15 +25,29 @@ body {
 /* Center the main heading */
 h1 {
     text-align: center;
-    font-size: 2em;
+    /* font-size: 2em; */ 
     margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.caveat{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+/* centre the inside heading of the lists */
+.task-column h2 {
+    text-align: center; /* Center the text */
+    margin-bottom: 15px; /* Add some space below the heading */
 }
 
 /* Center the task input and button */
 #new-task {
     display: flex;
     justify-content: center; /* Centers the input and button horizontally */
-    gap: 10px; /* Adds space between the input and the button */
+    gap: 10; /* Adds space between the input and the button */
     margin-bottom: 20px;
 }
 
@@ -43,11 +59,13 @@ h1 {
 }
 li {
     display: flex; /* Make the list item a flex container */
+    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background */
+    border-radius: 10px; /* Rounded corners */
     justify-content: space-between; /* Align content: task on left, buttons on right */
     align-items: center; /* Align items vertically in the center */
-    margin: 10px 0;
-    padding: 10px;
-    border-bottom: 1px solid #ccc; /* Adds a subtle divider between tasks */
+    margin: 2px;
+    padding: 2px;
+    border-bottom: 1px solid #cccccc2c; /* Adds a subtle divider between tasks */
     position: relative; /* Make it possible to align elements inside */
 }
 
@@ -67,7 +85,7 @@ li button:last-child {
 }
 
 button {
-    padding: 10px; /* Adjust padding for better alignment */
+    padding: 5px; /* Adjust padding for better alignment */
     background-color: #4e91f9; /* Matches gradient color */
     color: white;
     border: none;
@@ -82,6 +100,11 @@ button i {
 
 button:hover {
     background-color: #44d4a1; /* Hover effect color change */
+}
+
+/* Hover effect for delete button */
+button.delete-btn:hover {
+    background-color: red; /* Change to red on hover */
 }
 
 .task-container {

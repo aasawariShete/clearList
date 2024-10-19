@@ -6,13 +6,17 @@
     <title>To-Do List</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Playfair+Display:ital,wght@1,517&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+        </style>
 </head>
 <body>
+   
     <!-- Add a container to center the content -->
     <div class="container">
         <div id="content">
-        <h1>To-Do List</h1>
+        <h1 class="caveat">To-Do-List 📋 </h1>
 
         <!-- Section to add new tasks -->
         <div id="new-task">
@@ -24,19 +28,22 @@
         <div class="task-container">
             <!-- List of incomplete tasks -->
             <div class="task-column">
-                <h2>Incomplete Tasks</h2>
+                <h2 class="caveat">Incomplete Tasks</h2>
                 <ul id="task-list"></ul>
             </div>
 
             <!-- List of completed tasks -->
             <div class="task-column">
-                <h2>Completed Tasks</h2>
+                <h2 class="caveat">Completed Tasks</h2>
                 <ul id="completed-task-list"></ul>
+
+                <div style="text-align: center;">
+                    <button class="delete-btn" onclick="clearCompletedTasks()">Delete All</button>
+                </div>
             </div>
         </div>
 
-        <!-- Clear Completed Tasks Button -->
-        <button onclick="clearCompletedTasks()">Clear Completed Tasks</button>
+        
 
     </div>
 
