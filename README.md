@@ -26,9 +26,7 @@ This project is a **To-Do List Web Application** built using HTML, CSS, and Java
 
 ## Tech Stack
 
-- **HTML5**: Structured the content and ensured the use of semantic elements for improved accessibility and SEO.
-- **CSS3**: Designed with modern CSS techniques such as flexbox for layout, responsive design for adaptability, and aesthetic gradients to enhance the user interface.
-- **JavaScript (ES6)**: Handled dynamic task functionalities including task creation, completion toggling, deletion, and updates, ensuring smooth interactivity.
-- **Font Awesome**: Integrated icons for task management buttons, offering a visually appealing alternative to text-based buttons.
-- **RESTful API Integration**: Simulated interaction with backend services through API calls for fetching, updating, and deleting tasks, allowing easy expansion for future backend integration.
+## Tech Stack
+
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![Font Awesome](https://img.shields.io/badge/-Font%20Awesome-339AF0?style=flat&logo=font-awesome&logoColor=white) ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
 
