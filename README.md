@@ -27,3 +27,4 @@ This project is a **To-Do List Web Application** built using HTML, CSS, and Java
 
 ![To-Do List App Screenshot](./images/to%20do%20list%201.png "To-Do List UI")
 
+- **Update Pop-up of the To-do-list**
